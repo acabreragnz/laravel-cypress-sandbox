@@ -1,21 +1,21 @@
 {
-  "name": "frontend",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "cy:test": "start-server-and-test dev http://localhost:3000 cy:run"
-  },
-  "dependencies": {
-    "cypress-laravel": "next",
-    "vue": "^3.0.0-rc.1"
-  },
-  "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-rc.1",
-    "cypress": "^5.0.0",
-    "start-server-and-test": "^1.11.3",
-    "vite": "^1.0.0-rc.1"
-  }
+    "name": "frontend",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "cy:open": "cypress open",
+        "cy:run": "cypress run",
+        "cy:test": "start-server-and-test dev http://localhost:3000 cy:run"
+    },
+    "dependencies": {
+        "cypress-laravel": "next",
+        "vue": "^3.0.0-rc.1"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.0.0-rc.1",
+        "cypress": "7.3.0",
+        "start-server-and-test": "^1.11.3",
+        "vite": "^1.0.0-rc.1"
+    }
 }
