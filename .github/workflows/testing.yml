@@ -60,6 +60,6 @@ jobs:
     - name: Copy Frontend .env
       run: cp frontend/.env.testing frontend/.env
     - name: Install Node Dependencies
-      run: cd frontend && npm ci
+      run: cd frontend && npm install
     - name: Execute tests
       run: cd frontend && npm run cy:test
