@@ -57,6 +57,8 @@ jobs:
       run: php artisan key:generate
     - name: Run Laravel Server
       run: php artisan serve > /dev/null 2>&1 &
+    - name: Curl
+      run: curl http://127.0.0.1:8000
     - name: Copy Frontend .env
       run: cp frontend/.env.testing frontend/.env
     - name: Install Node Dependencies
